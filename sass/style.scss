@@ -115,19 +115,6 @@ body {
     margin: 10px 0;
 }
 
-i {
-    font-size: 20px;
-    font-weight: bold;
-    background: #eeeeee;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    color: grey;
-    border-radius: 50%;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
   .btn {
       display: inline-block;
       min-width: 100px;
@@ -296,4 +283,97 @@ i {
     border-radius: 50%;
     text-align: center;
     margin-right: 10px;
+}
+
+@media (max-width: 767px) {
+  .splash-iner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+.links {
+  padding-top: 5px;
+}
+
+.links a {
+  font-size: 8px;
+  color: white;
+  padding: 10px;
+}
+
+.splash-iner-2 h1 {
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.splash-iner-2 p{
+    font-size: 30px;
+    font-family:$font-text-two;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 10px 0;
+}
+.row {
+  flex-direction: column;
+  margin: 40px 10px;
+}
+.title p {
+    font-size: 12px;
+}
+
+/*portfolio*/
+
+.general-portfolio {
+    margin-top: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
+    flex-direction: column;
+}
+
+.box-inner h3{
+    font-family: $font-text-two;
+    font-size: 18px;
+    font-weight:100;
+    margin-bottom:8px;
+}
+
+.box-inner p {
+    font-size: 13px;
+}
+
+.box-portfolio-1 {
+  padding-left: 0;
+}
+
+.box-inner{
+  margin-left: 0;
+}
+
+/*footer*/
+
+.splash-iner-f {
+    margin-left: 40px;
+    justify-content: center;
+}
+
+.splash-iner-f p {
+    padding-top: 20px;
+    font-size: 5px;
+}
+
+.links-f {
+  padding-left: 30px;
+}
+
+.links-f i {
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 5px;
+}
+
+
 }
