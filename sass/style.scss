@@ -285,10 +285,19 @@ body {
     margin-right: 10px;
 }
 
+
 @media (max-width: 767px) {
+
+  .splash {
+    height: 500px;
+  }
   .splash-iner {
     flex-direction: column;
     text-align: center;
+  }
+
+  .splash-iner-2 {
+    margin: 50px 0;
   }
 
 .links {
@@ -298,7 +307,7 @@ body {
 .links a {
   font-size: 8px;
   color: white;
-  padding: 10px;
+  padding: 3px;
 }
 
 .splash-iner-2 h1 {
@@ -308,13 +317,9 @@ body {
 }
 
 .splash-iner-2 p{
-    font-size: 30px;
-    font-family:$font-text-two;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 800;
-    margin: 10px 0;
+    font-size: 25px;
 }
+
 .row {
   flex-direction: column;
   margin: 40px 10px;
@@ -349,6 +354,7 @@ body {
 
 .box-inner{
   margin-left: 0;
+  height: 100px;
 }
 
 /*footer*/
@@ -374,6 +380,18 @@ body {
     line-height: 20px;
     margin-right: 5px;
 }
+}
+@media (min-width: 768px) and (max-width: 991px) {
 
+  .splash-iner-2 p{
+      font-size: 40px;
+  }
 
+  .splash-iner-f {
+      margin-left: 150px;
+      justify-content: left;
+  }
+  .links-f {
+    padding-left: 80px;
+  }
 }

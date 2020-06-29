@@ -290,10 +290,16 @@ body {
 }
 
 @media (max-width: 767px) {
+  .splash {
+    height: 500px;
+  }
   .splash-iner {
     -ms-flex-direction: column;
         flex-direction: column;
     text-align: center;
+  }
+  .splash-iner-2 {
+    margin: 50px 0;
   }
   .links {
     padding-top: 5px;
@@ -301,7 +307,7 @@ body {
   .links a {
     font-size: 8px;
     color: white;
-    padding: 10px;
+    padding: 3px;
   }
   .splash-iner-2 h1 {
     font-weight: bolder;
@@ -309,12 +315,7 @@ body {
     font-size: 20px;
   }
   .splash-iner-2 p {
-    font-size: 30px;
-    font-family: "Krona One", sans-serif;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 800;
-    margin: 10px 0;
+    font-size: 25px;
   }
   .row {
     -ms-flex-direction: column;
@@ -346,6 +347,7 @@ body {
   }
   .box-inner {
     margin-left: 0;
+    height: 100px;
   }
   /*footer*/
   .splash-iner-f {
@@ -366,6 +368,20 @@ body {
     height: 20px;
     line-height: 20px;
     margin-right: 5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .splash-iner-2 p {
+    font-size: 40px;
+  }
+  .splash-iner-f {
+    margin-left: 150px;
+    -ms-flex-pack: left;
+        justify-content: left;
+  }
+  .links-f {
+    padding-left: 80px;
   }
 }
 /*# sourceMappingURL=style.css.map */
