@@ -8,7 +8,7 @@ body {
   margin: 0;
   font-size: 16px;
   color: black;
-  font-family: "BenchNine", sans-serif;
+  font-family: "Krona One", sans-serif;
   background-color: white;
 }
 
@@ -24,44 +24,23 @@ body {
 
 .section-title {
   position: relative;
-  font-weight: bold;
-  font-size: 40px;
+  font-weight: 800;
+  font-size: 30px;
   text-transform: uppercase;
   margin-bottom: 0;
-  font-family: "Spartan", sans-serif;
+  font-family: "Krona One", sans-serif;
 }
 
 .title p {
-  font-size: 20px;
-  font-family: "BenchNine", sans-serif;
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
   font-style: italic;
-  color: silver;
+  color: grey;
   margin-top: 5px;
+  font-weight: bold;
 }
 
 /*header*/
-.btn {
-  display: inline-block;
-  min-width: 100px;
-  margin: 28px auto 0 auto;
-  padding: 20px 30px;
-  font-family: "Spartan", sans-serif;
-  font-weight: bold;
-  font-size: 10px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  cursor: pointer;
-  background-position: 100% 0;
-  background-size: 300%;
-}
-
-.btn-one {
-  background-color: #9900CC;
-  color: white;
-  border-color: #9900CC;
-}
-
 .splash {
   background-image: url("https://images.pexels.com/photos/238230/pexels-photo-238230.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
   background-size: cover;
@@ -81,15 +60,16 @@ body {
 
 .links {
   padding-left: 0;
+  padding-top: 10px;
 }
 
 /*splash czesc gorna*/
 .header {
   /*h3 w gornej czesci*/
-  font-size: 18px;
-  font-family: "Libre Franklin", sans-serif;
+  font-size: 22px;
+  font-family: "Lobster", cursive;
   font-weight: 500;
-  color: #f5cb42;
+  color: #f5c92c;
 }
 
 .links li {
@@ -103,10 +83,7 @@ body {
   text-decoration: none;
   padding: 20px;
   font-weight: bold;
-}
-
-.links i {
-  font-size: 15px;
+  font-size: 10px;
 }
 
 /*splash czesc dolna*/
@@ -117,16 +94,17 @@ body {
 
 .splash-iner-2 h1 {
   font-family: "Spartan", sans-serif;
-  font-weight: 50;
+  font-weight: bolder;
   font-style: italic;
 }
 
 .splash-iner-2 p {
-  font-size: 50px;
-  font-family: "BenchNine", sans-serif;
+  font-size: 60px;
+  font-family: "Krona One", sans-serif;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 800;
+  margin: 10px 0;
 }
 
 i {
@@ -140,6 +118,28 @@ i {
   border-radius: 50%;
   text-align: center;
   margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 100px;
+  margin: 28px auto 0 auto;
+  padding: 20px 30px;
+  font-family: "Spartan", sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-position: 100% 0;
+  background-size: 300%;
+}
+
+.btn-one {
+  background-color: #f5c92c;
+  color: white;
+  border-color: #f5c92c;
 }
 
 /*section services*/
@@ -173,16 +173,16 @@ i {
   width: 60px;
   height: 60px;
   line-height: 60px;
-  color: orange;
+  color: #f5c92c;
   border-radius: 50%;
   text-align: center;
   margin-bottom: 20px;
-  border: 3px solid #9900CC;
+  border: 3px solid #f5c92c;
 }
 
 .box h3 {
-  font-family: "Libre Franklin", sans-serif;
-  font-size: 20px;
+  font-family: "Krona One", sans-serif;
+  font-size: 15px;
 }
 
 .box h4 {
@@ -190,17 +190,7 @@ i {
   font-size: 12px;
   text-align: center;
   padding: 0 30px;
-}
-
-.btn-two {
-  background-color: #9900CC;
-  color: white;
-  border-color: #9900CC;
-}
-
-.button {
-  text-align: center;
-  margin-bottom: 30px;
+  color: grey;
 }
 
 /*sekcja portfolio*/
@@ -253,18 +243,20 @@ i {
 }
 
 .box-inner h3 {
-  font-family: "Spartan", sans-serif;
+  font-family: "Krona One", sans-serif;
+  font-size: 12px;
   font-weight: bold;
-  margin-bottom: 2px;
+  margin-bottom: 8px;
 }
 
 .box-inner p {
   font-size: 12px;
   font-family: "Spartan", sans-serif;
   font-style: italic;
-  color: silver;
+  color: grey;
   margin-top: 0;
   padding-bottom: 2px;
+  font-weight: bold;
 }
 
 /*footer*/
@@ -275,16 +267,16 @@ i {
       flex-wrap: nowrap;
   -ms-flex-pack: start;
       justify-content: flex-start;
-  margin-left: 290px;
+  margin-left: 280px;
 }
 
-.header-f {
-  font-size: 12px;
-  font-family: "Libre Franklin", sans-serif;
+.splash-iner-f p {
+  font-size: 8px;
+  font-family: "Krona One", sans-serif;
   font-weight: 500;
   padding-top: 0px;
-  letter-spacing: 1px;
-  color: black;
+  color: grey;
+  padding-top: 20px;
 }
 
 .links-f {

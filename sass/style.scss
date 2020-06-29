@@ -1,9 +1,10 @@
 /*variables*/
 
 $font-text: 'Spartan', sans-serif;
-$font-text-two: 'BenchNine', sans-serif;
+$font-text-two: 'Krona One', sans-serif;
 $font-header: 'Libre Franklin', sans-serif;
-$color-main: #9900CC;
+$font-brand: 'Lobster', cursive;
+$color-main: #f5c92c;
 $color-background: #F5F5F5;
 
 /*Global*/
@@ -32,44 +33,23 @@ body {
 
 .section-title{
     position: relative;
-    font-weight: bold;
-    font-size: 40px;
+    font-weight: 800;
+    font-size: 30px;
     text-transform: uppercase;
     margin-bottom: 0;
-    font-family: $font-text;
+    font-family: $font-text-two;
 }
 
 .title p {
-    font-size: 20px;
-    font-family: $font-text-two;
+    font-size: 15px;
+    font-family: $font-text;
     font-style: italic;
-    color: silver;
+    color: grey;
     margin-top: 5px;
+    font-weight: bold;
 }
 
 /*header*/
-
-.btn {
-    display: inline-block;
-    min-width: 100px;
-    margin: 28px auto 0 auto;
-    padding: 20px 30px;
-    font-family:$font-text;
-    font-weight: bold;
-    font-size: 10px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    cursor: pointer;
-    background-position: 100% 0;
-    background-size: 300%;
-}
-
-.btn-one {
-    background-color: $color-main;
-    color: white;
-    border-color: $color-main;
-  }
 
 .splash {
     background-image: url('https://images.pexels.com/photos/238230/pexels-photo-238230.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
@@ -87,15 +67,16 @@ body {
 
 .links {
   padding-left: 0;
+  padding-top: 10px;
 }
 
 /*splash czesc gorna*/
 
 .header { /*h3 w gornej czesci*/
-    font-size: 18px;
-    font-family: $font-header;
+    font-size: 22px;
+    font-family: $font-brand;
     font-weight: 500;
-    color: #f5cb42;
+    color: $color-main;
 }
 
 .links li {
@@ -109,10 +90,7 @@ body {
     text-decoration: none;
     padding: 20px;
     font-weight: bold;
-}
-
-.links i {
-    font-size: 15px;
+    font-size: 10px;
 }
 
 /*splash czesc dolna*/
@@ -124,16 +102,17 @@ body {
 
 .splash-iner-2 h1 {
     font-family: $font-text;
-    font-weight: 50;
+    font-weight: bolder;
     font-style: italic;
 }
 
 .splash-iner-2 p{
-    font-size: 50px;
+    font-size: 60px;
     font-family:$font-text-two;
     text-align: center;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 800;
+    margin: 10px 0;
 }
 
 i {
@@ -148,6 +127,30 @@ i {
     text-align: center;
     margin-bottom: 20px;
   }
+
+  .btn {
+      display: inline-block;
+      min-width: 100px;
+      margin: 28px auto 0 auto;
+      padding: 20px 30px;
+      font-family:$font-text;
+      font-weight: bold;
+      font-size: 10px;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      cursor: pointer;
+      background-position: 100% 0;
+      background-size: 300%;
+  }
+
+  .btn-one {
+      background-color: $color-main;
+      color: white;
+      border-color: $color-main;
+    }
+
+
 /*section services*/
 
 .title {
@@ -176,7 +179,7 @@ i {
     width: 60px;
     height: 60px;
     line-height: 60px;
-    color: orange;
+    color: $color-main;
     border-radius: 50%;
     text-align: center;
     margin-bottom: 20px;
@@ -184,8 +187,8 @@ i {
     }
 
 .box h3 {
-    font-family: $font-header;
-    font-size: 20px;
+    font-family: $font-text-two;
+    font-size: 15px;
 }
 
 .box h4 {
@@ -193,17 +196,7 @@ i {
     font-size: 12px;
     text-align: center;
     padding: 0 30px;
-}
-
-.btn-two {
-    background-color: $color-main;
-    color: white;
-    border-color: $color-main;
-}
-
-.button {
-    text-align: center;
-    margin-bottom: 30px;
+    color: grey;
 }
 
 /*sekcja portfolio*/
@@ -249,18 +242,20 @@ i {
     background-color: white;
 }
 .box-inner h3{
-    font-family: $font-text;
+    font-family: $font-text-two;
+    font-size: 12px;
     font-weight:bold;
-    margin-bottom:2px;
+    margin-bottom:8px;
 }
 
 .box-inner p {
     font-size: 12px;
     font-family: $font-text;
     font-style: italic;
-    color: silver;
+    color: grey;
     margin-top: 0;
     padding-bottom: 2px;
+    font-weight: bold;
 }
 /*footer*/
 
@@ -268,16 +263,16 @@ i {
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-start;
-    margin-left: 290px;
+    margin-left: 280px;
 }
 
-.header-f {
-    font-size: 12px;
-    font-family: $font-header;
+.splash-iner-f p {
+    font-size: 8px;
+    font-family: $font-text-two;
     font-weight: 500;
     padding-top: 0px;
-    letter-spacing: 1px;
-    color: black;
+    color: grey;
+    padding-top: 20px;
 }
 
 .links-f {
